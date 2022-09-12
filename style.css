@@ -12,13 +12,13 @@ body {
 .header-wrapper {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(-45deg, #050404, #2e231c, #a45022, #e48444);
+    background: linear-gradient(-90deg, #08003b, #3f17a3, #4e3cc2, #f2f3f5);
     background-size: 400% 400%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: backgroundTransition 15s ease-in-out infinite;
+    animation: backgroundTransition 10s  infinite;
     position: relative;
 }
 
@@ -31,13 +31,29 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
 }
-
-.social-media {
+h2::after {
+    content: '?';
+    margin-left: 2px;
+    opacity: 1;
+    animation: pisca .7s infinite;  ;
+}
+@keyframes pisca {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+   
+}ul li
+} {
     margin-top: 1rem;
     display: flex;
+    
+    
 }
 
-.social-media a {
+ul li a {
     text-decoration: none;
     color: #ffffff;
     font-size: 24px;
@@ -48,8 +64,31 @@ h2 {
     justify-content: center;
     align-items: center;
     transition: .5s cubic-bezier(0.55, 0.025, 0.675, 0.97);
+    
+}ul li select.drop {
+    font-family: 'amatic sc', sans-serif;
+    text-decoration: none;
+    color: #44009d;
+    font-size: 20px;
+    padding: 0;
+    border: 1px solid #ffffff;
+    min-width: 4rem;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    transition: .5s cubic-bezier(0.55, 0.025, 0.675, 0.97);
+    border-bottom-right-radius: 50%;
+    margin-right: 15px;
+    width: 120px;
+    
+    
+    
 }
 
+select:hover {
+    color: #030a14;
+    background-color: #ffffff;
+}
 a:hover {
     color: #2e251c;
     background-color: #ffffff;
