@@ -63,9 +63,11 @@ h2::after {
     justify-content: center;
     align-items: center;
     min-width: 100px;
-    
-    
+     
 }
+
+.dropdown {
+    position: absolute;
 
 
 img.fox {
