@@ -1,3 +1,27 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@levi-b-code 
+levi-b-code
+/
+GestordeChamados
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+GestordeChamados/style.css 
+Newer           Older
+ 100644  420 lines (356 sloc)  7.15 KB
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
 body {
@@ -6,12 +30,6 @@ body {
     color: #ffffff;
     font-family: 'amatic sc', sans-serif;
 }
-
-/* Início do teste*/
-
-
-
-/* Fim do teste */
 
 /* HEADER */
 
@@ -26,7 +44,6 @@ body {
     align-items: center;
     animation: backgroundTransition 8s ease-in-out infinite;
     position: relative;
-    margin-top: 0px;
 }
 
 h1 {
@@ -55,15 +72,24 @@ h2::after {
 
 
 
-    
+
 .social-media {
     margin-top: 1rem;
     display: flex;
-    max-width: 600px;
+    max-width: 200px;
     justify-content: center;
     align-items: center;
-    min-width: 100px;   
-    position: relative;
+    min-width: 100px;
+
+}
+.#1 {
+    margin-top: 1rem;
+    display: flex;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+
 }
 
 img.fox {
@@ -73,12 +99,12 @@ img.fox {
     margin: 0px auto;
     display:flex;
     position: relative;
-    
+
     min-width: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 
 }
 .social-media a {
@@ -92,9 +118,22 @@ img.fox {
     justify-content:center;
     align-items: center;
     transition: .5s cubic-bezier(0.55, 0.025, 0.675, 0.97);
-    
-}
 
+}
+.#1 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 1rem 4rem;
+    border: 1px solid #ffffff;
+    min-width: 4rem;
+    display: flex;
+    justify-content: space-between
+    ;
+    align-items: center;
+    transition: .5s cubic-bezier(0.55, 0.025, 0.675, 0.97);
+
+}
 
 a:hover {
     color: #2e251c;
@@ -353,7 +392,7 @@ a:hover {
     align-items: center;
     position:absolute;
     bottom: 0;
-    
+
 }
 .footer a{
     text-decoration: none;
@@ -403,3 +442,17 @@ a:hover {
         width: 190px;
     }
 }
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
