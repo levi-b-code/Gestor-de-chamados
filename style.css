@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('SpaceGrotesk-Light.ttf');
+
+
 
 body {
     margin: 0;
@@ -68,9 +70,9 @@ h2::after {
     margin-top: 1rem;
     display: flex;
     max-width: 600px;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
-    min-width: 600px;
+    min-width: 500px;
     
 }
 
@@ -237,6 +239,8 @@ a:hover {
 
 #toggle:checked + .checkbox {
     background-color: white;
+    
+    
 }
 
 #toggle:checked ~ .menu{
@@ -369,6 +373,7 @@ a:hover {
     text-decoration: none;
     color: #ffffff;
     background-color:#2e261c ;
+    
 
 }
 
