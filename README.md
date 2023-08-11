@@ -1,2 +1,2 @@
-# Gestor de chamados
-https://levi-b-code.github.io/GestorChamados/
+# NCTECH
+https://levi-b-code.github.io/NCTECH/
